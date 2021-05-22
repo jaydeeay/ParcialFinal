@@ -6,6 +6,7 @@ namespace OrdenaNumeros
 {
     public partial class Form1 : Form
     {
+        //Prueba del proyecto
         //Atributos propios del juego
         private int[,] matrizValores;
         private Button[,] matrizBotones;
@@ -29,7 +30,7 @@ namespace OrdenaNumeros
             InicializaMatrizValores();
         }
 
-        /// <summary>
+        /// <summary>   
         /// Evento que se usa cuando se carga la forma por primera vez
         /// </summary>
         private void Form1_Load(object sender, EventArgs e)
